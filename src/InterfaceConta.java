@@ -8,4 +8,6 @@ public interface InterfaceConta {
 	void transferir(double valor, Conta contaDestino);
 
 	void transferir(double valor, InterfaceConta contaDestino);
+	
+	void imprimirExtrato();
 }
